@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.container{
+    width: 50rem;
+    height: 15rem;
+    border: 1px solid black;
+    position: relative;
+}
+.base_btn{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color: #3b82f6;
+    border-radius: 0.4rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+#SnackBar{
+    visibility: hidden;
+    background-color: #1e293b;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 23rem;
+    color: white;
+    position: absolute;
+    left: 15rem;
+    bottom: 0.5rem;
+
+}
+#SnackBar.show{
+    visibility: visible;
+}
+.btn{
+    padding: 0.5rem;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+    color: #a21caf;
+    background-color: #1e293b;
+}
+#btn_cross{
+    color: white;
+}
+#leadbtn{
+    visibility: hidden;
+    background-color: #1e293b;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    width: 23rem;
+    color: white;
+    position: absolute;
+    left: 1rem;
+    bottom: 0.5rem;
+
+}
+#leadbtn.show{
+    visibility:visible;
+}
