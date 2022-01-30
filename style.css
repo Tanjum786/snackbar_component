@@ -61,6 +61,29 @@ body{
     bottom: 0.5rem;
 
 }
+#btn_cross1{
+    color: white;
+}
 #leadbtn.show{
     visibility:visible;
 }
+#stackbtn{
+    visibility: hidden;
+    background-color: #1e293b;
+    border-radius: 0.4rem;
+    padding: 2rem;
+    padding-top: 1rem;
+    width: 23rem;
+    color: white;
+    position: absolute;
+    right: 0.5rem;
+    bottom: 0.5rem;
+
+}
+#stackbtn.show{
+    visibility:visible;
+}
+#btn_cross2{
+    color: white;
+}
+
